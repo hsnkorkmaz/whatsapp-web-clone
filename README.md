@@ -1,5 +1,7 @@
 # WhatsApp Web Clone with React and Tailwind
 
+It is NOT ready yet :)
+
 Installation
 
 ```sh
