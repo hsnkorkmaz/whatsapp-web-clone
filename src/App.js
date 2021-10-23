@@ -1,9 +1,11 @@
-import React from 'react'
+import {React, useEffect} from 'react'
 
-const App = () => {
+const App = ({ hideLoader }) => {
+  useEffect(hideLoader, []);
+
   return (
-    <div>
-      <h1 className="bg-red-500 text-white">Test React and Tailwind</h1>
+    <div className="">
+      <h1 className="bg-white dark:bg-black">Test React and Tailwind</h1>
     </div>
   )
 }
