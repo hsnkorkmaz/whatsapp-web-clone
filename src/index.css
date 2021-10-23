@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.height-100-38{
+  min-height: calc(100vh - 38px);
+}
