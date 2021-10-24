@@ -1,9 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
+import profilePicture from '../assets/images/hasan-profile.jpg'
+import NewChatButton from '../Components/NewChatButton';
+import SettingsButton from '../Components/SettingsButton';
+import StatusButton from '../Components/StatusButton';
 
 const LeftSide = () => {
+
+
+    const [pressed, setPressed] = useState(false);
+    const toggleHover = () => setPressed(!pressed);
+
+
     return (
         <div className="w-3/12">
-            left
+            <div className="flex justify-between items-center bg-whatsApp-light">
+                <div className="flex-1 pt-3 pl-3 pb-3">
+                    <img src={profilePicture} alt="profile" className="rounded-full h-10 w-10" />
+                </div>
+                <StatusButton />
+                <NewChatButton />
+                <SettingsButton />
+            </div>
         </div>
     )
 }

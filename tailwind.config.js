@@ -7,7 +7,8 @@ module.exports = {
         whatsApp: {
           base: "#282D31",
           dark: "#282D31",
-          light: "#3E4247"
+          light: "#3E4247",
+          lightest: "#B2B3B5"
         }
       }
     },
