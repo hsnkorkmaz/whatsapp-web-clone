@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import profilePicture from '../assets/images/hasan-profile.jpg'
 import NewChatButton from '../Components/NewChatButton';
+import SearchChat from '../Components/SearchChat';
 import SettingsButton from '../Components/SettingsButton';
 import StatusButton from '../Components/StatusButton';
 
@@ -21,6 +22,7 @@ const LeftSide = () => {
                 <NewChatButton />
                 <SettingsButton />
             </div>
+            <SearchChat />
         </div>
     )
 }
