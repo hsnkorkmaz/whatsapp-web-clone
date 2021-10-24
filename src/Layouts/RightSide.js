@@ -3,7 +3,7 @@ import introImage from '../assets/images/intro-connection-dark.jpg';
 
 const RightSide = () => {
     return (
-        <div className="w-9/12 bg-whatsApp-base flex items-center justify-center ">
+        <div className="w-9/12 bg-whatsApp-base flex items-center justify-center border-b-4 border-green-900 ">
             <div className="flex flex-col justify-center items-center w-8/12 text-center">
                 <img src={introImage} alt="intro" className="" />
                 <h1 className="text-gray-300 text-4xl mt-7">Keep your phone connected</h1>
