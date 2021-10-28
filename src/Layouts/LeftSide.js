@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import profilePicture from '../assets/images/hasan-profile.jpg'
 import ChatList from '../Components/ChatList';
 import NewChatButton from '../Components/NewChatButton';
@@ -6,12 +6,7 @@ import SearchChat from '../Components/SearchChat';
 import SettingsButton from '../Components/SettingsButton';
 import StatusButton from '../Components/StatusButton';
 
-const LeftSide = () => {
-
-
-    const [pressed, setPressed] = useState(false);
-    const toggleHover = () => setPressed(!pressed);
-
+const LeftSide = (props) => {
 
     return (
         <div className="w-3/12 bg-w-900">
@@ -24,7 +19,7 @@ const LeftSide = () => {
                 <SettingsButton />
             </div>
             <SearchChat />
-            <ChatList />
+            <ChatList  setChatId={props.setChatId} />
         </div>
     )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Chat = (props) => {
     return (
-        <div className="flex bg-w-900 hover:bg-w-600 cursor-pointer">
+        <div className="flex bg-w-900 hover:bg-w-600 cursor-pointer" onClick={() => props.setChatId(props.id)}>
             <div className="mt-3 ml-3 mb-3">
                 <svg viewBox="0 0 212 212" width="40" height="40">
                     <path fill="#DFE5E7" d="M106.251.5C164.653.5 212 47.846 212 106.25S164.653 212 106.25 212C47.846 212 .5 164.654.5 106.25S47.846.5 106.251.5z"></path>
@@ -17,6 +17,7 @@ const Chat = (props) => {
                 <div className="text-sm font-thin">{props.message}</div>
             </div>
         </div>
+        
     )
 }
 

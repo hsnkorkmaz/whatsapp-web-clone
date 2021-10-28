@@ -1,4 +1,4 @@
-import {React, useEffect} from 'react'
+import React, { useEffect } from 'react'
 import MainPage from './Layouts/MainPage';
 
 const App = ({ hideLoader }) => {

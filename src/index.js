@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { useEffect } from 'react';
 
 const loader = document.querySelector('#loader');
 const showLoader = () => loader.classList.remove('hidden');
