@@ -24,6 +24,141 @@ export const friendsList = [
                 Type: "Sent",
                 Message: "Wuhuu",
                 Time: new Date(2021, 10, 28, 12, 10, 0, 0),
+            },
+            {
+                Type: "Received",
+                Message: "How are you?",
+                Time: new Date(2021, 10, 28, 12, 5, 0, 0),
+            },
+            {
+                Type: "Sent",
+                Message: "Hello, thank you for using “business name” service. Can I help you with something?",
+                Time: new Date(2021, 10, 28, 12, 10, 0, 0),
+            },
+            {
+                Type: "Sent",
+                Message: "Wuhuu",
+                Time: new Date(2021, 10, 28, 12, 10, 0, 0),
+            },
+            {
+                Type: "Received",
+                Message: "How are you?",
+                Time: new Date(2021, 10, 28, 12, 5, 0, 0),
+            },
+            {
+                Type: "Sent",
+                Message: "Hello, thank you for using “business name” service. Can I help you with something?",
+                Time: new Date(2021, 10, 28, 12, 10, 0, 0),
+            },
+            {
+                Type: "Sent",
+                Message: "Wuhuu",
+                Time: new Date(2021, 10, 28, 12, 10, 0, 0),
+            },
+            {
+                Type: "Received",
+                Message: "How are you?",
+                Time: new Date(2021, 10, 28, 12, 5, 0, 0),
+            },
+            {
+                Type: "Sent",
+                Message: "Hello, thank you for using “business name” service. Can I help you with something?",
+                Time: new Date(2021, 10, 28, 12, 10, 0, 0),
+            },
+            {
+                Type: "Sent",
+                Message: "Wuhuu",
+                Time: new Date(2021, 10, 28, 12, 10, 0, 0),
+            },
+            {
+                Type: "Received",
+                Message: "How are you?",
+                Time: new Date(2021, 10, 28, 12, 5, 0, 0),
+            },
+            {
+                Type: "Sent",
+                Message: "Hello, thank you for using “business name” service. Can I help you with something?",
+                Time: new Date(2021, 10, 28, 12, 10, 0, 0),
+            },
+            {
+                Type: "Sent",
+                Message: "Wuhuu",
+                Time: new Date(2021, 10, 28, 12, 10, 0, 0),
+            },
+            {
+                Type: "Received",
+                Message: "How are you?",
+                Time: new Date(2021, 10, 28, 12, 5, 0, 0),
+            },
+            {
+                Type: "Sent",
+                Message: "Hello, thank you for using “business name” service. Can I help you with something?",
+                Time: new Date(2021, 10, 28, 12, 10, 0, 0),
+            },
+            {
+                Type: "Sent",
+                Message: "Wuhuu",
+                Time: new Date(2021, 10, 28, 12, 10, 0, 0),
+            },
+            {
+                Type: "Received",
+                Message: "How are you?",
+                Time: new Date(2021, 10, 28, 12, 5, 0, 0),
+            },
+            {
+                Type: "Sent",
+                Message: "Hello, thank you for using “business name” service. Can I help you with something?",
+                Time: new Date(2021, 10, 28, 12, 10, 0, 0),
+            },
+            {
+                Type: "Sent",
+                Message: "Wuhuu",
+                Time: new Date(2021, 10, 28, 12, 10, 0, 0),
+            },
+            {
+                Type: "Received",
+                Message: "How are you?",
+                Time: new Date(2021, 10, 28, 12, 5, 0, 0),
+            },
+            {
+                Type: "Sent",
+                Message: "Hello, thank you for using “business name” service. Can I help you with something?",
+                Time: new Date(2021, 10, 28, 12, 10, 0, 0),
+            },
+            {
+                Type: "Sent",
+                Message: "Wuhuu",
+                Time: new Date(2021, 10, 28, 12, 10, 0, 0),
+            },
+            {
+                Type: "Received",
+                Message: "How are you?",
+                Time: new Date(2021, 10, 28, 12, 5, 0, 0),
+            },
+            {
+                Type: "Sent",
+                Message: "Hello, thank you for using “business name” service. Can I help you with something?",
+                Time: new Date(2021, 10, 28, 12, 10, 0, 0),
+            },
+            {
+                Type: "Sent",
+                Message: "Wuhuu",
+                Time: new Date(2021, 10, 28, 12, 10, 0, 0),
+            },
+            {
+                Type: "Received",
+                Message: "How are you?",
+                Time: new Date(2021, 10, 28, 12, 5, 0, 0),
+            },
+            {
+                Type: "Sent",
+                Message: "Hello, thank you for using “business name” service. Can I help you with something?",
+                Time: new Date(2021, 10, 28, 12, 10, 0, 0),
+            },
+            {
+                Type: "Sent",
+                Message: "Wuhuu",
+                Time: new Date(2021, 10, 28, 12, 10, 0, 0),
             }
         ],
     },
