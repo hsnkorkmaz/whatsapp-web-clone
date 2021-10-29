@@ -16,7 +16,6 @@ const MainPage = () => {
         else {
             if (friend === null) {
                 friend = getFriendById(chatId);
-                console.log(friend);
             }
             return <Conversation friend={friend} />
         }
