@@ -7,3 +7,24 @@
   min-height: calc(100vh - 38px);
   max-height: calc(100vh - 38px);
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  height: 200px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(46, 46, 46);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(72, 72, 72);
+}
