@@ -5,7 +5,7 @@ import MessageItem from './MessageItem'
 
 const Conversation = (props) => {
     return (
-        <div className="w-9/12 flex flex-col">
+        <div className="w-9/12 flex flex-col height-100-38 overflow-hidden">
             <div className="flex justify-between items-center bg-w-700">
                 <div className="mt-3 ml-3 mb-3">
                     <svg viewBox="0 0 212 212" width="40" height="40">
@@ -20,7 +20,7 @@ const Conversation = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="flex-1" style={{ backgroundImage: `url(${bgTile})` }}>
+            <div className="flex-1 overflow-auto" style={{ backgroundImage: `url(${bgTile})` }}>
                 <div className="flex flex-col">
                     {props.friend.Messages.map((message, index) => {
                        return <MessageItem key={index} message={message} />
