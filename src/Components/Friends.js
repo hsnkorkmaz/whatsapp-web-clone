@@ -24,7 +24,7 @@ export const friendsList = [
     },
     {
         Id: 2,
-        Name: "Tommy",
+        Name: "Tommy ❤️",
         Messages: [
             {
                 Type: "Sent",
