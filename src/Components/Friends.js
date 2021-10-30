@@ -248,3 +248,13 @@ export const getFriendById = (Id) => {
         return friend.Id === Id;
     })
 }
+
+export const addMessage = (friendId, message) => {
+    let friend = getFriendById(friendId);
+    let newMessage = {
+        Type: "Sent",
+        Message: message,
+        Time: new Date(),
+    };
+    friend.Messages.push(newMessage);
+}
