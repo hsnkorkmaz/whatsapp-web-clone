@@ -1,32 +1,42 @@
-import React, { Fragment, useState } from 'react'
+import React, { useState } from 'react'
 import Intro from '../Components/Intro';
 import LeftSide from './LeftSide';
-import {getFriendById} from "../Components/Friends"
+import { getFriendById } from "../Components/Friends"
 import Conversation from '../Components/Conversation';
+import { useEffect } from 'react/cjs/react.development';
 
 const MainPage = () => {
     const [chatId, setChatId] = useState(null);
-    let friend = null;
+    const [friend, setFriend] = useState(null);
 
 
-    const renderRightSide = () => {
-        if (chatId === null) {
+
+useEffect (() => {
+    renderRightSide(chatId);
+}, [friend])
+
+
+
+    const renderRightSide = (id) => {
+        if (id === null) {
             return <Intro />
         }
         else {
             if (friend === null) {
-                friend = getFriendById(chatId);
+               setFriend(getFriendById(id));
             }
-            return <Conversation friend={friend} />
+            if(friend != null && friend.Id != id){
+                setFriend(getFriendById(id));
+            }
+
+            return <Conversation friend={friend} setFriend={setFriend} />
         }
     }
-
-
 
     return (
         <div className="flex mt-5 max-w-screen-2xl mx-auto bg-white height-100-38">
             <LeftSide setChatId={setChatId} />
-            {renderRightSide()}
+            {renderRightSide(chatId)}
         </div>
     )
 }
