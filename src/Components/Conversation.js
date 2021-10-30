@@ -2,6 +2,7 @@ import React from 'react'
 import SettingsButton from './SettingsButton'
 import bgTile from '../assets/images/bg-chat-tile-dark.png'
 import MessageItem from './MessageItem'
+import SendMessage from './SendMessage'
 
 const Conversation = (props) => {
     return (
@@ -27,6 +28,7 @@ const Conversation = (props) => {
                     })}
                 </div>
             </div>
+            <SendMessage friendId={props.friend.Id} setFriend={props.setFriend} />
         </div>
     )
 }
