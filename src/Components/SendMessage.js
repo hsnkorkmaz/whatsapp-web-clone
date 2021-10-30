@@ -8,7 +8,6 @@ const SendMessage = (props) => {
     const handleKeyPress = (e) => {
         if(e.key === 'Enter'){
             addMessage(props.friendId, message);
-            console.log(getFriendById(props.friendId));
             props.setFriend("");
             e.target.value = '';
         }
